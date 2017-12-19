@@ -6,3 +6,20 @@ body {
 a {
   color: #00B7FF;
 }
+
+.testBorder{
+  border: 1px solid grey;
+}
+
+.socialMediaButton{
+  height: 50px;
+}
+
+#mainContainer{
+  
+}
+
+#bitDiemLogo{
+  height: 100px;
+  width:100px;
+}

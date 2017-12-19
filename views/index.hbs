@@ -1,2 +1,48 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<div class="container testBorder" id="mainContainer">
+    <!-- Content here -->
+
+    {{!-- Icon Row  --}}
+    <div class="row testBorder">
+        <div class="col-sm-2">
+            <img src="./images/bitDiem2.jpg" id="bitDiemLogo" alt="">
+        </div>
+    </div>
+    {{!-- Logo & Header Row --}}
+    <div class="row testBorder">
+        <div class="col-sm-6 testBorder">
+            <span>BitDiem</span>
+        </div>
+        <br>
+        <div class="col-sm-6 testBorder">
+            <span>The future of freelance payments built on blockchain</span>
+        </div>
+    </div>
+    {{!-- Call To Action Row --}}
+    <div class="row testBorder">
+        <div class="col-md-6 offset-md-3 testBorder">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> {{!-- info regarding infrequent updates --}}
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                 {{!-- Call To Action Form/Button --}}
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+     {{!-- Row for follow Social Media Share Buttons to create viral loop --}}
+     <div class="row testBorder">
+         {{!-- facebook --}}
+         <div class="col-md-4 offset-md-1 testBorder">
+            <img src="./images/socialMediaIcons/facebook.svg" id="facebookButton" class="socialMediaButton"></img>
+         </div>
+         {{!-- twitter --}}
+        <div class="col-md-4 offset-md-1 testBorder">
+            <img src="./images/socialMediaIcons/twitter.svg" id="twitterButton" class="socialMediaButton"></img>
+        </div>
+     </div>
+     {{!-- Row for Copyright and stuff --}}
+
+</div>
+
