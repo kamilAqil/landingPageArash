@@ -25,6 +25,15 @@ a {
   height: 50px;
 }
 
+.heeboTextStyle{
+  font-family: 'Heebo', sans-serif;
+}
+
+#bitDiemDescription{
+  font-size: 38px;
+  
+}
+
 #mainContainer{
   background-color: white;
   height: 800px;
@@ -34,10 +43,16 @@ a {
 }
 
 #bitDiemLogo{
-  height: 100px;
-  width:100px;
+  height: 100%;
+  width:100%;
 }
 
 #socialMediaRow{
   margin-bottom: 0;
+}
+
+#callToActionForm{
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
 }
