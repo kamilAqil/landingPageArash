@@ -1,8 +1,14 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+#theBackground{
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: rgb(41,137,216); /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(41,137,216,1) 10%, rgba(95,221,175,1) 84%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(41,137,216,1) 10%,rgba(95,221,175,1) 84%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(41,137,216,1) 10%,rgba(95,221,175,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
 a {
   color: #00B7FF;
 }
@@ -11,15 +17,33 @@ a {
   border: 1px solid grey;
 }
 
+.equalRow{
+  height: 25%;
+}
+
 .socialMediaButton{
   height: 50px;
 }
 
-#mainContainer{
+.heeboTextStyle{
+  font-family: 'Heebo', sans-serif;
+}
+
+#bitDiemDescription{
+  font-size: 38px;
   
 }
 
+#mainContainer{
+  background-color: white;
+  height: 800px;
+  position: relative;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
 #bitDiemLogo{
+
   height: 100px;
   width:100%;
 }
@@ -29,4 +53,15 @@ a {
   margin-bottom: 30px; 
   height: 100px;
   weight: 100px;
+
+}
+
+#socialMediaRow{
+  margin-bottom: 0;
+}
+
+#callToActionForm{
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
 }
