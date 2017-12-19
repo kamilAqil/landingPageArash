@@ -23,9 +23,16 @@ a {
 #mainContainer{
   background-color: white;
   height: 80%;
+  position: relative;
+  border-radius: 10px;
+  border: 3px solid black;
 }
 
 #bitDiemLogo{
   height: 100px;
   width:100px;
+}
+
+#socialMediaRow{
+  margin-bottom: 0;
 }
