@@ -1,21 +1,21 @@
-<div class="container testBorder" id="mainContainer">
+<div class="container" id="mainContainer">
     <!-- Content here -->
 
     {{!-- Icon Row  --}}
 
-    <div class="row testBorder">
+    <div class="row">
         <div class="col-sm-12" style="padding:0">
             <img src="./images/bitDiem1.jpg" id="bitDiemLogo"  alt="">
         </div>
     </div>
     {{!-- Logo & Header Row --}}
-    <div class="row testBorder">
+    <div class="row">
         <div class="col-md-6 offset-md-3 text-center">
             <img src="./images/bitDiem2.jpg" class="bLogo"  alt="">
         </div>
-        <div class="col-md-6 offset-md-3 testBorder text-center">
+        <div class="col-md-6 offset-md-3 text-center">
             
-            <p>BitDiem</p>
+            <p id="bitDiemTitle">BitDiem</p>
             <br>
             <span class="heeboTextStyle" id="bitDiemDescription">The future of freelance payments built on blockchain</span>
 
@@ -37,16 +37,22 @@
         </div>
     </div>
      {{!-- Row for follow Social Media Share Buttons to create viral loop --}}
-     <div class="row testBorder equalRow" id="socialMediaRow">
+    <div class="row equalRow" id="socialMediaRow">
          {{!-- facebook --}}
-         <div class="col-md-4 offset-md-1 testBorder text-center">
-            <img src="./images/socialMediaIcons/facebook.svg" id="facebookButton" class="socialMediaButton"></img>
-         </div>
-         {{!-- twitter --}}
-        <div class="col-md-4 offset-md-1 testBorder text-center">
-            <img src="./images/socialMediaIcons/twitter.svg" id="twitterButton" class="socialMediaButton"></img>
+        <div class="col-md-4 text-center">
+            <img src="/images/socialMediaIcons/f.png" id="facebookButton" class="socialMediaButton">
         </div>
-     </div>
+         {{!-- telegram --}}
+        <div class="col-md-4 text-center">
+            <img src="/images/socialMediaIcons/tm.png" id="telegramButton" class="socialMediaButton">
+        </div>
+         {{!-- twitter --}}
+        <div class="col-md-4 text-center">
+            <img src="/images/socialMediaIcons/tr.png" id="twitterButton" class="socialMediaButton">
+        </div>
+
+
+    </div>
      {{!-- Row for Copyright and stuff --}}
 
 </div>

@@ -6,6 +6,8 @@ anime({
       ],
       rotate:{
           value:'1turn',
-          easing: 'easeInOutSine'
-      }
+          easing: 'easeInOutSine',
+        
+      },
+      loop:true
 });

@@ -1,4 +1,5 @@
 body {
+
 }
 
 #theBackground{
@@ -8,6 +9,12 @@ body {
   background: -moz-linear-gradient(45deg, rgba(41,137,216,1) 10%, rgba(95,221,175,1) 84%); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, rgba(41,137,216,1) 10%,rgba(95,221,175,1) 84%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, rgba(41,137,216,1) 10%,rgba(95,221,175,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#mainContainer{
+
 }
 a {
   color: #00B7FF;
@@ -26,7 +33,12 @@ a {
 }
 
 .heeboTextStyle{
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#bitDiemTitle{
+  font-family: 'Bungee', cursive;
+  font-size: 50px;
 }
 
 #bitDiemDescription{
@@ -43,7 +55,6 @@ a {
 }
 
 #bitDiemLogo{
-
   height: 100px;
   width:100%;
 }
