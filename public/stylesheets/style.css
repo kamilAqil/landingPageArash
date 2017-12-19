@@ -1,13 +1,14 @@
 body {
+}
+
+#theBackground{
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: rgb(41,137,216); /* Old browsers */
   background: -moz-linear-gradient(45deg, rgba(41,137,216,1) 10%, rgba(95,221,175,1) 84%); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, rgba(41,137,216,1) 10%,rgba(95,221,175,1) 84%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, rgba(41,137,216,1) 10%,rgba(95,221,175,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  height: 1000px;
 }
-
 a {
   color: #00B7FF;
 }
@@ -16,13 +17,17 @@ a {
   border: 1px solid grey;
 }
 
+.equalRow{
+  height: 25%;
+}
+
 .socialMediaButton{
   height: 50px;
 }
 
 #mainContainer{
   background-color: white;
-  height: 80%;
+  height: 800px;
   position: relative;
   border-radius: 10px;
   border: 3px solid black;
