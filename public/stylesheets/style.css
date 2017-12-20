@@ -52,7 +52,7 @@ a {
 
 #mainContainer{
   background-color: white;
-  height: 800px;
+  height: 850px;
   position: relative;
   border-radius: 10px;
   border: 3px solid black;
@@ -79,4 +79,17 @@ a {
   position: absolute;
   width: 100%;
   bottom: 0%;
+}
+
+@media (max-width:600px) {
+  #mainContainer{height: 850px;}
+}
+
+@media (max-width:460px) {
+  #mainContainer{height: 900px;}
+}
+
+@media (max-width:400px) {
+  #mainContainer{height: 950px;}
+  #bitDiemTitle{margin-left: -12px}
 }
