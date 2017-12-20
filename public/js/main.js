@@ -11,3 +11,6 @@ anime({
       },
       loop:true
 });
+
+
+
