@@ -48,3 +48,21 @@ button{
   box-sizing:border-box;
 
 }
+
+#formSubmitContainer{
+  position: relative;
+}
+
+#formInput{
+  position: absolute;
+  left: 0%;
+  width: 80%;
+}
+
+#formButton{
+  position: absolute;
+  right: 0%;
+  width: 30%;
+  text-align: right;
+}
+
