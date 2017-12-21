@@ -54,3 +54,15 @@ button{
   text-align: center;
   
   }
+
+  #topRow{
+    height: 10%;
+  }
+
+  #mainContainer{
+    height: auto;
+  }
+
+  #mainRow{
+    height: 50%;
+  }
