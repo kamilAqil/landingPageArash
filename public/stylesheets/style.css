@@ -1,88 +1,31 @@
-body {
-
-}
 
 #theBackground{
-  padding: 50px;
   height: 800px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url('../images/bdlanding/bg.jpg');
 }
 
 
-#mainContainer{
-
-}
-a {
-  color: #00B7FF;
-}
-
 .testBorder{
   border: 1px solid white;
 }
 
-.equalRow{
+#topLogoRow{
+  height: 10%;
+}
+
+#subscribeRow{
+  height: 40%;
+}
+
+#moreInfoRow{
   height: 20%;
 }
 
-.socialMediaButton{
-  height: 50px;
-}
-
-.heeboTextStyle{
-  font-family: 'Orbitron', sans-serif;
-}
-
-#bitDiemTitle{
-  font-family: 'Bungee', cursive;
-  font-size: 50px;
-}
-
-#bitDiemDescription{
-  font-size: 38px;
-  
-}
-
-#mainContainer{
-  background-color: white;
-  height: 850px;
-  position: relative;
-  border-radius: 10px;
-  border: 3px solid black;
-}
-
-#bitDiemLogo{
-  height: 100px;
-  width:100%;
-}
-
-.bLogo{
-  margin-top: 30px;
-  margin-bottom: 30px; 
-  height: 100px;
-  weight: 100px;
-
-}
-
 #socialMediaRow{
-  margin-bottom: 0;
+  height: 20%;
 }
 
-#callToActionForm{
-  position: absolute;
-  width: 100%;
-  bottom: 0%;
-}
-
-@media (max-width:600px) {
-  #mainContainer{height: 850px;}
-}
-
-@media (max-width:460px) {
-  #mainContainer{height: 900px;}
-}
-
-@media (max-width:400px) {
-  #mainContainer{height: 950px;}
-  #bitDiemTitle{margin-left: -12px}
+#allRightsReservedRow{
+  height: 10%;
 }
