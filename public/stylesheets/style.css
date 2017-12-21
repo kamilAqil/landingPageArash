@@ -66,3 +66,8 @@ button{
   #mainRow{
     height: 50%;
   }
+
+  .moreInfoImage{
+    width: 150px;
+    height: 100px;
+  }
