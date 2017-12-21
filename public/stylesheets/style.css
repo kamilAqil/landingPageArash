@@ -3,13 +3,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.testBorder{
+  border: 1px solid white;
+}
+
 nav {
   margin-top: 30px;
 }
 
-#description{
-  margin-top: 100px;
-}
 
 
 #formSubmitContainer{
@@ -17,13 +18,11 @@ nav {
 }
 
 #formInput{
-  position: absolute;
   left: 0%;
   width: 80%;
 }
 
 #formButton{
-  position: absolute;
   right: 0%;
   width: 30%;
   text-align: right;
