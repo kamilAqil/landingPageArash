@@ -1,95 +1,50 @@
 body {
-
-}
-
-#theBackground{
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: rgb(41,137,216); /* Old browsers */
-  background: -moz-linear-gradient(45deg, rgba(41,137,216,1) 10%, rgba(95,221,175,1) 84%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, rgba(41,137,216,1) 10%,rgba(95,221,175,1) 84%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, rgba(41,137,216,1) 10%,rgba(95,221,175,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-image: url("../images/bdlanding/bg.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
-
-
-
-
-#mainContainer{
-
-}
-a {
-  color: #00B7FF;
-}
-
-.testBorder{
-  border: 1px solid grey;
-}
-
-.equalRow{
-  height: 20%;
-}
-
-.socialMediaButton{
-  height: 50px;
-}
-
-.heeboTextStyle{
-  font-family: 'Orbitron', sans-serif;
-}
-
-#bitDiemTitle{
-  font-family: 'Bungee', cursive;
-  font-size: 50px;
-}
-
-#bitDiemDescription{
-  font-size: 38px;
-  
-}
-
-#mainContainer{
-  background-color: white;
-  height: 850px;
-  position: relative;
-  border-radius: 10px;
-  border: 3px solid black;
-}
-
-#bitDiemLogo{
-  height: 100px;
-  width:100%;
-}
-
-.bLogo{
+nav {
   margin-top: 30px;
-  margin-bottom: 30px; 
-  height: 100px;
-  weight: 100px;
-
 }
 
-#socialMediaRow{
-  margin-bottom: 0;
+#description{
+  margin-top: 100px;
 }
-
-#callToActionForm{
-  position: absolute;
-  width: 100%;
-  bottom: 0%;
+input{
+  width: 300px;	
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+  font-family: 'Sniglet', cursive;
+  font-size: 1em;
+  color: #676767;
+  transition: border 0.5s;
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  -o-transition: border 0.5s;
+  border: solid 3px #98d4f3;	
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
 }
+button{
+  z-index: -1;
+  width: 150px;	
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+  font-family: 'Sniglet', cursive;
+  font-size: 1em;
+  color: #676767;
+  transition: border 0.5s;
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  -o-transition: border 0.5s;
+  border: solid 3px #98d4f3;	
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
 
-@media (max-width:600px) {
-  #mainContainer{height: 850px;}
-}
-
-@media (max-width:460px) {
-  #mainContainer{height: 900px;}
-}
-
-@media (max-width:400px) {
-  #mainContainer{height: 950px;}
-  #bitDiemTitle{margin-left: -12px}
 }
