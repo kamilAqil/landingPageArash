@@ -4,7 +4,11 @@ body {
 }
 
 .testBorder{
-  border: 1px solid white;
+  
+}
+
+#footerText{
+  color: #666699;
 }
 
 nav {
@@ -56,15 +60,16 @@ button{
   }
 
   #topRow{
-    height: 10%;
+    
   }
 
   #mainContainer{
-    height: auto;
+    margin-top: 5%;
+    height: 800px;
   }
 
   #mainRow{
-    height: 50%;
+   
   }
 
   .moreInfoImage{
