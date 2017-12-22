@@ -2,10 +2,10 @@
 <div class="container-fluid" id="mainContainer">
     {{!-- top icon row --}}
     <div class="row testBorder" id="topRow">
-            <div class="col-md-1 offset-md-1 testBorder">
+            <div class="col-md-1  testBorder">
                 <img class="img-fluid" src="./images/bdlanding/bdlogo.png" class="testBorder">
             </div>
-            <div class="col-md-3 offset-md-7 testBorder">
+            <div class="col-md-3 offset-md-8 testBorder">
                 <img class="img-fluid" src="./images/bdlanding/telegram.png" style="float:right">
             </div>
     </div>
@@ -27,16 +27,20 @@
                             <span style="color:white;margin:0" class="testBorder">For ALL!</span>
                         </div>
                     </div>
-                    <div class="row testBorder text-center">
-                        {{!-- submit form --}}
-                        <div class="testBorder" style="position:relative;margin:auto" id="submitFormContainer">
-                            <input placeholder="Wanna get more info? Submit your email." id="formInput"></input>
-                            <button style="background-color:#ffcc00" id="formButton">SUBMIT</button>
-                    
-                        </div>
-                    </div>
+
                 </div>
     </div>
+
+<div class="row testBorder text-center">
+   
+        <form class="testBorder" style="position:relative;margin:auto" id="submitFormContainer">
+            <input type="email" placeholder="Wanna get more info? Submit your email." id="formInput">
+            <button  type="submit" value="Submit" style="background-color:#ffcc00" id="formButton">SUBMIT</button>
+        </form>
+
+</div>
+
+
     {{!-- moreInfoRow --}}
     <div id="moreInfoRow" class="row text-center testBorder">
         {{!-- liquid payments --}}
@@ -59,16 +63,16 @@
         <div class="col-md-6 offset-md-3 testBorder" id="infoTwo">
             <div class="row text-center testBorder">
                 <div class="col-sm-3 testBorder">
-                    <img src="./images/bdlanding/facebook.png" alt="" class="img-fluid ">
+                    <img src="./images/bdlanding/facebook.png" alt="" class="img-fluid social">
                 </div>
                 <div class="col-sm-3 testBorder">
-                   <img src="./images/bdlanding/twitter.png" alt="" class="img-fluid "> 
+                   <img src="./images/bdlanding/twitter.png" alt="" class="img-fluid social"> 
                 </div>
                 <div class="col-sm-3 testBorder">
-                    <img src="./images/bdlanding/ig.png" alt="" class="img-fluid ">
+                    <img src="./images/bdlanding/ig.png" alt="" class="img-fluid social">
                 </div>
                 <div class="col-sm-3 testBorder">
-                    <img src="./images/bdlanding/in.png" alt="" class="img-fluid ">
+                    <img src="./images/bdlanding/in.png" alt="" class="img-fluid social">
                 </div>
             </div>
 
@@ -79,16 +83,18 @@
     
 </div>
 
-<footer class="page-footer">
+<div class="page-footer testBorder">
+  
+
     <div class="container">
         
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center testBorder">
                 <b>&copy; All Rights Reserved. BITDIEM 2018.</b>
             </div>
         </div>
     </div>
-</footer>
+</div>
 
 
 

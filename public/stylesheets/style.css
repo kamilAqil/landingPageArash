@@ -12,18 +12,18 @@ nav {
 }
 
 
-
 #formSubmitContainer{
   position: relative;
+ 
 }
 
 #formInput{
   left: 0%;
-  width: 80%;
+  width: 60%;
 }
 
 #formButton{
-  right: 0%;
+
   width: 30%;
   text-align: right;
 }
@@ -61,6 +61,7 @@ button{
 
   #mainContainer{
     height: auto;
+    margin-top: 20px;
   }
 
   #mainRow{
@@ -68,14 +69,37 @@ button{
   }
 
   .moreInfoImage{
-    width: 150px;
-    height: 100px;
+    
+    height: 200px;
   }
 
   .page-footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     padding: 20px 0;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: white;
 }
+#socialMediaRow{
+  margin-top: 50px;
+
+}
+
+#mainRow{
+  margin-top: 100px;
+
+}
+#moreInfoRow{
+  margin-top: 50px;
+}
+
+.social{
+  width: 100px;
+  height: 100px;
+}
+
