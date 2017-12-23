@@ -1,9 +1,6 @@
 body {
   background-image: url("../images/bdlanding/bg.jpg");
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  position: absolute;
 }
 
 #topRow{
@@ -46,11 +43,6 @@ nav {
  text-align: right;
  font-size: 70%;
 }
-
-#elipseForm{
-  
-}
-
 
 .sub{
   margin-top: 20px;
