@@ -8,16 +8,13 @@ body {
 }
 
 .testBorder{
-  border: 1px solid white;
+  
 }
 
 #footerText{
   color: #666699;
 }
 
-nav {
-  margin-top: 30px;
-}
 
 #formInput{
  position: absolute;
@@ -71,10 +68,6 @@ nav {
 
 }
 
-#mainRow{
-  margin-top: 10%;
-
-}
 #moreInfoRow{
   height: 40%;
 }
@@ -90,24 +83,10 @@ nav {
   height: 50px;
 }
 
-/* iphone6 */
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
- 
-  #moreInfoRow{
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+#mainRow{
+  margin-top: 10%;
 }
-
-/* ipad */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
-   #moreInfoRow{
-    margin-top: 0;
-    margin-bottom: 0;
-  }
 }
-
