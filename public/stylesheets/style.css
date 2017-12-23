@@ -90,15 +90,14 @@ nav {
 #buttonCol{
   position: relative;
   padding: 0;
+  height: 50px;
 }
 
 /* iphone6 */
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
-  #body{
-    height: 1000px;
-  }
+ 
   #pageFooter{
     
   }
