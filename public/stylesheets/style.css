@@ -116,13 +116,16 @@ body {
 }
 
 /* small screen remove top logo ----------- */
-@media only screen  and (max-width : 900px) {
+@media only screen  and (max-width : 1000px) {
 /* Styles */
   #topRow{
     display: none;
   }
+   .brandContentRow{
+    margin-top: 3%;
+  }
+}
 
-@media only screen and (min-device-width:)  
 
 
 
