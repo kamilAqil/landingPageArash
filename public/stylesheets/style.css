@@ -4,7 +4,7 @@ body {
 }
 
 .testBorder{
-  
+  border: 1px solid white;
 }
 
 #footerText{
@@ -16,40 +16,29 @@ nav {
 }
 
 
-#formSubmitContainer{
-  position: relative;
- 
-}
 
 #formInput{
-  left: 0%;
-  width: 60%;
-  border-radius: 40px;
-  height: 40px;
-  padding: 0 11px;
-  font-size: 14px;
-  border: 1px solid white;
-
+ position: absolute;
+ left: 0;
+ width: 85%;
+ height: 40px;
+ border-radius: 40px;
+ border: 1px solid white;
 }
 
 #formButton{
+ background-color: #ffcc00;
+ position: absolute;
+ right: 0;
+ width: 30%;
+ height: 40px;
+ border-radius: 40px;
+}
 
-  width: 30%;
-  text-align: right;
-  z-index: -1;
-  border-radius: 40px;
-  height: 40px;
-  padding: 0 100px;
-  font-size: 14px;
-  overflow: hidden;
-  color: rgb(33, 33, 94);
-  border: 1px solid white;
+#elipseForm{
   
 }
 
-form{
-  width: 60%;
-}
 
 .sub{
   margin-top: 20px;
@@ -57,13 +46,8 @@ form{
 
 
 
-  #topRow{
-    
-  }
-
   #mainContainer{
-    height: 800px;
-    margin-top: 20px;
+    height: auto;
   }
 
   #mainRow{
@@ -75,12 +59,17 @@ form{
     height: 200px;
   }
 
+  #pageFooter{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+  }
+
   .page-footer {
     position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 20px 0;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
@@ -93,7 +82,7 @@ form{
 }
 
 #mainRow{
-  margin-top: 100px;
+  margin-top: 5%;
 
 }
 #moreInfoRow{
@@ -103,5 +92,10 @@ form{
 .social{
   width: 100px;
   height: 100px;
+}
+
+#buttonCol{
+  position: relative;
+  padding: 0;
 }
 

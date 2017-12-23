@@ -1,16 +1,17 @@
 {{!-- mainContainer --}}
-<div class="container-fluid" id="mainContainer">
+<div class="container-fluid testBorder" id="mainContainer">
     {{!-- top icon row --}}
-    <div class="row" id="topRow">
-            <div class="col-md-1">
-                <img class="img-fluid" src="./images/bdlanding/bdlogo.png">
+    <div class="row testBorder" id="topRow">
+            <div class="col-md-1 testBorder">
+                <img class="img-fluid testBorder" src="./images/bdlanding/bdlogo.png">
             </div>
-            <div class="col-md-3 offset-md-8 ">
+            <div class="col-md-3 offset-md-8 testBorder ">
                 <img class="img-fluid" src="./images/bdlanding/telegram.png" style="float:right">
             </div>
     </div>
+
     {{!-- firstMainRow --}}
-    <div id="mainRow" class=" row text-center">
+    <div id="mainRow" class=" row text-center testBorder">
                 <div class="col-lg-12">
                     <div class="row text-center">
                         <div class="col-lg-12 text-center">
@@ -31,58 +32,65 @@
                 </div>
     </div>
 
-    <div class="row sub text-center">
-    
-            <form style="position:relative;margin:auto" id="submitFormContainer">
-                <input type="email" placeholder="Wanna get more info? Submit your email." id="formInput">
-                <button  type="submit" value="Submit" style="background-color:#ffcc00" id="formButton">SUBMIT</button>
-            </form>
-
+    {{!-- formSubmitRow --}}
+    <div class="row sub text-center testBorder">
+            {{!-- buttonCol --}}
+            <div class="col-lg-4 col-sm-12 testBorder offset-lg-4" id="buttonCol">
+                <div id="elipseForm">
+                    {{!-- <form id="submitFormContainer" class="testBorder"> --}}
+                        <input type="email" placeholder="Wanna get more info? Submit your email." id="formInput" class="">
+                        <button type="submit" value="Submit" style="background-color:#ffcc00" id="formButton" class="">SUBMIT</button>
+                    {{!-- </form> --}}
+                </div>
+                
+            </div>
     </div>
 
 
     {{!-- moreInfoRow --}}
-    <div id="moreInfoRow" class="row text-center ">
+    <div id="moreInfoRow" class="row text-center testBorder">
         {{!-- liquid payments --}}
-        <div class="col-md-3 offset-md-1 " id="infoOne">
+        <div class="col-md-3 offset-md-1 testBorder" id="infoOne">
             <img src="./images/bdlanding/copy1.png" alt="" class="img-fluid moreInfoImage">
         </div>
         {{!-- safest way to pay --}}
-        <div class="col-md-4 " id="infoTwo">
+        <div class="col-md-4 testBorder" id="infoTwo">
             <img src="./images/bdlanding/copy2.png" alt="" class="img-fluid moreInfoImage">
         </div>
         {{!-- easy to use --}}
-        <div class="col-md-3 " id="infoThree">
+        <div class="col-md-3 testBorder" id="infoThree">
             <img src="./images/bdlanding/copy3.png" alt="" class="img-fluid moreInfoImage">
         </div>
     </div>
 
     {{!-- socialMediaRow --}}
-    <div id="socialMediaRow" class="row text-center ">
+    <div id="socialMediaRow" class="row text-center testBorder">
 
 
-        <div class="col-md-6 offset-md-3 " id="infoTwo">
+        <div class="col-md-6 offset-md-3 testBorder textCenter" id="infoTwo">
             <div class="row text-center ">
-                <div class="col-sm-3 ">
+                <div class="col-sm-2 offset-sm-2 testBorder">
                     <img src="./images/bdlanding/facebook.png" alt="" class="img-fluid social">
                 </div>
-                <div class="col-sm-3 ">
+                <div class="col-sm-2 testBorder">
                    <img src="./images/bdlanding/twitter.png" alt="" class="img-fluid social"> 
                 </div>
-                <div class="col-sm-3 ">
+                <div class="col-sm-2 testBorder">
                     <img src="./images/bdlanding/ig.png" alt="" class="img-fluid social">
                 </div>
-                <div class="col-sm-3 ">
+                <div class="col-sm-2 testBorder">
                     <img src="./images/bdlanding/in.png" alt="" class="img-fluid social">
 
                 </div>
             </div>
         </div>
     </div>
+
      {{!-- footer --}}
-    <div class="page-footer row text-center ">
-  
-        <div class="col-md-12 text-center ">
+    <div class="row text-center testBorder" id="pageFooter">
+
+        {{!-- footerColumn --}}
+        <div class="col-md-12 text-center testBorder">
             <b>&copy; All Rights Reserved. BITDIEM 2018.</b>
 
         </div>
