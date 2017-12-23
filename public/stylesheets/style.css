@@ -84,6 +84,7 @@ body {
 
 #moreInfoRow{
   height: 40%;
+  display: none;
 }
 
 .social{
