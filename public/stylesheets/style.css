@@ -6,6 +6,10 @@ body {
   width: 100%;
 }
 
+.brandFont{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 #topRow{
   height: 10%;
 }
@@ -19,7 +23,7 @@ body {
 }
 
 #footerText{
-  color: #666699;
+  color: #003366;
 }
 
 
@@ -53,7 +57,7 @@ body {
 }
 
 #footerText{
-  color: white;
+  color:#666699;
 }
 
   #mainContainer{
