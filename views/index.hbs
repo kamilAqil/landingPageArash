@@ -34,27 +34,28 @@
 
     {{!-- formSubmitRow --}}
     <div class="row sub text-center testBorder">
-    
-            <form style="position:relative;margin:auto" id="submitFormContainer">
-                <input type="email" placeholder="Wanna get more info? Submit your email." id="formInput">
-                <button  type="submit" value="Submit" style="background-color:#ffcc00" id="formButton">SUBMIT</button>
-            </form>
-
+            {{!-- buttonCol --}}
+            <div class="col-lg-4 testBorder offset-lg-4" id="buttonCol">
+                <form style="position:relative;margin:auto" id="submitFormContainer">
+                    <input type="email" placeholder="Wanna get more info? Submit your email." id="formInput">
+                    <button type="submit" value="Submit" style="background-color:#ffcc00" id="formButton">SUBMIT</button>
+                </form>
+            </div>
     </div>
 
 
     {{!-- moreInfoRow --}}
     <div id="moreInfoRow" class="row text-center testBorder">
         {{!-- liquid payments --}}
-        <div class="col-md-3 offset-md-1 " id="infoOne">
+        <div class="col-md-3 offset-md-1 testBorder" id="infoOne">
             <img src="./images/bdlanding/copy1.png" alt="" class="img-fluid moreInfoImage">
         </div>
         {{!-- safest way to pay --}}
-        <div class="col-md-4 " id="infoTwo">
+        <div class="col-md-4 testBorder" id="infoTwo">
             <img src="./images/bdlanding/copy2.png" alt="" class="img-fluid moreInfoImage">
         </div>
         {{!-- easy to use --}}
-        <div class="col-md-3 " id="infoThree">
+        <div class="col-md-3 testBorder" id="infoThree">
             <img src="./images/bdlanding/copy3.png" alt="" class="img-fluid moreInfoImage">
         </div>
     </div>
