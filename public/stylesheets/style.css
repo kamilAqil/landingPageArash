@@ -16,50 +16,21 @@ nav {
 }
 
 
-#formSubmitContainer{
-  position: relative;
+
+#formInput{
  
 }
 
-#formInput{
-  left: 0%;
-  width: 60%;
-  border-radius: 40px;
-  height: 40px;
-  padding: 0 11px;
-  font-size: 14px;
-  border: 1px solid white;
-
-}
-
 #formButton{
-
-  width: 30%;
-  text-align: right;
-  z-index: -1;
-  border-radius: 40px;
-  height: 40px;
-  padding: 0 100px;
-  font-size: 14px;
-  overflow: hidden;
-  color: rgb(33, 33, 94);
-  border: 1px solid white;
   
 }
 
-form{
-  width: 60%;
-}
 
 .sub{
   margin-top: 20px;
 }
 
 
-
-  #topRow{
-    
-  }
 
   #mainContainer{
     height: auto;
@@ -109,5 +80,8 @@ form{
   height: 100px;
 }
 
-#buttonCol
+#buttonCol{
+  position: relative;
+  padding: 0;
+}
 
