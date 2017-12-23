@@ -20,7 +20,7 @@ body {
 }
 
 .testBorder{
-  
+  border: 1px solid white;
 }
 
 #footerCol{
@@ -150,6 +150,10 @@ body {
   #formButton{
     right:-5%;
     font-size: 85%;
+  }
+
+  #submitRow{
+    margin-top: 30%;
   }
 }
 
