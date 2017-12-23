@@ -30,22 +30,24 @@ body {
 
 #formInput{
  position: absolute;
- left: 3px;
+ left: 5%;
  width: 79%;
  height: 60px;
  border-radius: 40px;
  padding: 2%;
  text-align: center;
  z-index: 1;
+ border: 1px solid white;
 }
 
 #formButton{
  background-color: #ffcc00;
  position: absolute;
  width: 41%;
- right: 12px;
+ right: 1%;
  height: 60px;
  border-radius: 40px;
+ border: 1px solid white;
  text-align: right;
 }
 
@@ -121,8 +123,17 @@ body {
   #topRow{
     display: none;
   }
+
    .brandContentRow{
     margin-top: 3%;
+  }
+
+  #formInput{
+    left: 2%;
+  }
+
+  #formButton{
+    right:1%;
   }
 }
 
