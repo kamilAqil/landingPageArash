@@ -4,7 +4,7 @@ body {
 }
 
 .testBorder{
-  
+ 
 }
 
 #footerText{
@@ -26,16 +26,18 @@ nav {
  border: 1px solid white;
  padding: 2%;
  text-align: center;
+ font-size: 70%;
 }
 
 #formButton{
  background-color: #ffcc00;
  position: absolute;
- right: 0;
- width: 45%;
+ width: 32%;
  height: 40px;
  border-radius: 40px;
  z-index: -1;
+ text-align: right;
+ font-size: 70%;
 }
 
 #elipseForm{
@@ -47,10 +49,13 @@ nav {
   margin-top: 20px;
 }
 
-
+#footerText{
+  color: white;
+}
 
   #mainContainer{
     height: auto;
+    width: 95%;
   }
 
   #mainRow{
@@ -58,14 +63,15 @@ nav {
   }
 
   .moreInfoImage{
-    
-    height: 200px;
+    height: 80%;
+    width: 80%;
+    margin-top: 6%;
   }
 
   #pageFooter{
     font-family: 'Roboto', sans-serif;
     color: white;
-
+    margin-top: 3%;
   }
 
   .page-footer {
