@@ -112,7 +112,7 @@ body {
 }
 
 /* small screen remove top logo ----------- */
-@media only screen  and (max-width : 975px) {
+@media only screen  and (max-width : 900px) {
 /* Styles */
   #topRow{
     display: none;
