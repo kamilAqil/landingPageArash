@@ -101,13 +101,24 @@ body {
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
 /* Styles */
-#mainRow{
-  margin-top: 10%;
+  #mainRow{
+    margin-top: 10%;
+  }
+
+  #pageFooter{
+    position: absolute;
+    width: 100%;
+  }
+
 }
 
-#pageFooter{
-  position: absolute;
-  width: 100%;
-}
+/* small screen remove top logo ----------- */
+@media only screen  and (max-width : 957px) {
+/* Styles */
+  #topRow{
+    display: none;
+  }
 
-}
+
+
+
