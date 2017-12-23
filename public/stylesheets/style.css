@@ -8,12 +8,17 @@ body {
 }
 
 .testBorder{
-  border: 1px solid white;
+  
+}
+
+#footerCol{
+  padding: 1%;
 }
 
 #footerText{
   color: #666699;
 }
+
 
 
 #formInput{
@@ -52,15 +57,9 @@ body {
     width: 95%;
   }
 
-
-  .moreInfoImage{
-    height: 80%;
-    width: 80%;
-    margin-top: 6%;
-  }
-
   #pageFooter{
     height: 10%;
+    margin-top: 3%;
   }
 
 #socialMediaRow{
@@ -83,10 +82,20 @@ body {
   height: 50px;
 }
 
+.moreInfoCol{
+ margin-top:5%;
+}
+
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
 /* Styles */
 #mainRow{
   margin-top: 10%;
 }
+
+#pageFooter{
+  position: absolute;
+  width: 100%;
+}
+
 }
