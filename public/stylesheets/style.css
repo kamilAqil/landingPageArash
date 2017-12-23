@@ -114,44 +114,6 @@ body {
  margin-top:5%;
 }
 
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 900px) {
-/* Styles */
-
-  #topRow{
-    height: 10%;
-  }
- 
-}
-
-/* small screen remove top logo ----------- */
-@media only screen  and (max-width : 1000px) {
-/* Styles */
- 
-
-  #topRow{
-    display: none;
-  }
-
-   .brandContentRow{
-    margin-top: 3%;
-  }
-
-  #formInput{
-    left: 2%;
-  }
-
-  #formButton{
-    right:-5%;
-    font-size: 85%;
-  }
-
-  #submitRow{
-    margin-top: 30%;
-  }
-}
-
-
 
 
 
