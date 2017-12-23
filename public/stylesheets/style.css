@@ -18,10 +18,24 @@ nav {
 
 
 #formInput{
- 
+ position: absolute;
+ left: 0;
+ width: 85%;
+ height: 40px;
+ border-radius: 40px;
+ border: 1px solid white;
 }
 
 #formButton{
+ background-color: #ffcc00;
+ position: absolute;
+ right: 0;
+ width: 30%;
+ height: 40px;
+ border-radius: 40px;
+}
+
+#elipseForm{
   
 }
 
