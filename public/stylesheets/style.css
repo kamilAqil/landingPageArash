@@ -12,7 +12,8 @@ body {
 }
 
 .brandContentRow{
-    margin-top: 3%;
+    height: 30%;
+    margin-top: 5%;
   }
 
 #topRow{
@@ -21,6 +22,12 @@ body {
 
 .testBorder{
   border: 1px solid white;
+}
+
+#pageFooter{
+  bottom: -15px;
+  width: 100%;
+  margin-top: 9%;
 }
 
 #footerCol{
@@ -32,6 +39,9 @@ body {
 }
 
 
+#submitRow{
+  margin-top: 10%;
+}
 
 #formInput{
  position: absolute;
@@ -73,10 +83,6 @@ body {
     width: 100%;
   }
 
-  #pageFooter{
-    height: 10%;
-    margin-top: 3%;
-  }
 
 #socialMediaRow{
   margin-top: 50px;
@@ -102,7 +108,6 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
-  margin-top: 7%;
 }
 
 .moreInfoCol{
@@ -116,25 +121,13 @@ body {
   #topRow{
     height: 10%;
   }
-  #mainRow{
-    margin-top: 10%;
-
-  }
-
-
-  #pageFooter{
-    position: absolute;
-    width: 100%;
-  }
-
+ 
 }
 
 /* small screen remove top logo ----------- */
 @media only screen  and (max-width : 1000px) {
 /* Styles */
-  #mainContainer{
-   
-  }
+ 
 
   #topRow{
     display: none;
