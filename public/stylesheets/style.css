@@ -20,19 +20,21 @@ nav {
 #formInput{
  position: absolute;
  left: 0;
- width: 85%;
+ width: 65%;
  height: 40px;
  border-radius: 40px;
  border: 1px solid white;
+ padding: 2%;
 }
 
 #formButton{
  background-color: #ffcc00;
  position: absolute;
  right: 0;
- width: 30%;
+ width: 45%;
  height: 40px;
  border-radius: 40px;
+ z-index: -1;
 }
 
 #elipseForm{
