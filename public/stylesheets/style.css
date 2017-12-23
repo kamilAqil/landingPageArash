@@ -4,7 +4,7 @@ body {
 }
 
 .testBorder{
-  
+  border: 1px solid white;
 }
 
 #footerText{
@@ -62,8 +62,7 @@ form{
   }
 
   #mainContainer{
-    height: 800px;
-    margin-top: 20px;
+    height: auto;
   }
 
   #mainRow{
@@ -75,12 +74,17 @@ form{
     height: 200px;
   }
 
+  #pageFooter{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+  }
+
   .page-footer {
     position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 20px 0;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
@@ -93,7 +97,7 @@ form{
 }
 
 #mainRow{
-  margin-top: 100px;
+  margin-top: 5%;
 
 }
 #moreInfoRow{
