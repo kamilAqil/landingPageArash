@@ -19,8 +19,6 @@ nav {
   margin-top: 30px;
 }
 
-
-
 #formInput{
  position: absolute;
  left: 0;
@@ -98,8 +96,8 @@ nav {
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
  
-  #pageFooter{
-    
+  #moreInfoRow{
+    margin-top: 0;
   }
 }
 
