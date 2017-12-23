@@ -73,7 +73,7 @@ nav {
   }
 
   #pageFooter{
-    margin-top: 10%;
+    
   }
 
 #socialMediaRow{
@@ -86,7 +86,8 @@ nav {
 
 }
 #moreInfoRow{
-  margin-top: 50px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .social{
@@ -104,9 +105,7 @@ nav {
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
   #pageFooter{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    
   }
 }
 
