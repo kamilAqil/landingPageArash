@@ -1,10 +1,16 @@
 body {
   background-image: url("../images/bdlanding/bg.jpg");
   background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#topRow{
+  height: 10%;
 }
 
 .testBorder{
- 
 }
 
 #footerText{
@@ -54,13 +60,10 @@ nav {
 }
 
   #mainContainer{
-    height: auto;
+    height: 100%;
     width: 95%;
   }
 
-  #mainRow{
-   
-  }
 
   .moreInfoImage{
     height: 80%;
@@ -69,29 +72,16 @@ nav {
   }
 
   #pageFooter{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin-top: 3%;
+    margin-top: 10%;
   }
 
-  .page-footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: white;
-}
 #socialMediaRow{
   margin-top: 50px;
 
 }
 
 #mainRow{
-  margin-top: 5%;
+  margin-top: 10%;
 
 }
 #moreInfoRow{
@@ -107,4 +97,16 @@ nav {
   position: relative;
   padding: 0;
 }
+
+/* iphone6 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+
+}
+
+/* ipad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { /* STYLES GO HERE */}
 
