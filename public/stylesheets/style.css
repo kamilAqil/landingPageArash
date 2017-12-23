@@ -4,7 +4,7 @@ body {
 }
 
 .testBorder{
-  
+  border: 1px solid white;
 }
 
 #footerText{
@@ -26,6 +26,7 @@ nav {
  border: 1px solid white;
  padding: 2%;
  text-align: center;
+ font-size: 13px;
 }
 
 #formButton{
@@ -47,10 +48,14 @@ nav {
   margin-top: 20px;
 }
 
-
+#footerText{
+  color: white;
+}
 
   #mainContainer{
     height: auto;
+    margin-top: 2%;
+    width: 95%;
   }
 
   #mainRow{
