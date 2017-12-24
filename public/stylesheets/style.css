@@ -13,7 +13,7 @@ body {
 
 .brandContentRow{
     height: 30%;
-    margin-top: 2%;
+    margin-top: 5%;
   }
 
 #topRow{
@@ -51,10 +51,10 @@ body {
  width: 79%;
  height: 60px;
  border-radius: 40px;
- padding: 2%;
  text-align: center;
  z-index: 1;
- border: 1px solid white;
+ border-width: 3px 0px 3px 3px;
+ border-color: white;
  font-family: 'Quicksand', sans-serif;
  font-size: 106%;
 }
@@ -63,10 +63,11 @@ body {
  background-color: #ffcc00;
  position: absolute;
  width: 41%;
- right: 3%;
+ right: 8%;
  height: 60px;
  border-radius: 40px;
- border: 1px solid white;
+ border-color: white;
+ border-width: 1px 1px 1px 0 px;
  text-align: right;
  font-family: 'Montserrat', sans-serif;
  font-size: 77%;
@@ -142,6 +143,9 @@ color: black !important;
   }
   #submitRow{
     margin-top: 5%;
+  }
+  #formButton{
+    right:1%;
   }
 }
 
