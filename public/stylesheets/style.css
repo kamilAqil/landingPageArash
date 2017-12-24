@@ -20,6 +20,10 @@ body {
   display: none;
 }
 
+#mainLogo{
+  height: 115%;
+}
+
 .testBorder{
   
 }
