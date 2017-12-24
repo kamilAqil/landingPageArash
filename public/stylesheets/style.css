@@ -21,7 +21,7 @@ body {
 }
 
 .testBorder{
-  border: 1px solid white;
+  
 }
 
 #pageFooter{
@@ -38,7 +38,7 @@ body {
 
 
 #submitRow{
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 #formInput{
@@ -118,6 +118,9 @@ body {
 @media only screen and (max-width : 1000px){
   #mainRow{
     margin-top: 40%;
+  }
+  #submitRow{
+    margin-top: 2%;
   }
 }
 
