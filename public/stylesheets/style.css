@@ -25,9 +25,7 @@ body {
 }
 
 #pageFooter{
-  bottom: -15px;
-  width: 100%;
-  margin-top: 9%;
+  margin-top: 1%;
 }
 
 #footerCol{
@@ -78,11 +76,14 @@ body {
   color:#666699;
 }
 
-  #mainContainer{
-    height: 100%;
-    width: 100%;
-  }
+#mainContainer{
+  height: 100%;
+  width: 100%;
+}
 
+#mainRow{
+  margin-top: 5%;
+}
 
 #socialMediaRow{
   margin-top: 50px;
