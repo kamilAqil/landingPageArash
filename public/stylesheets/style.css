@@ -51,21 +51,21 @@ body {
  text-align: center;
  z-index: 1;
  border: 1px solid white;
- font-family: 'Allan', cursive;
- font-size: 100%;
+ font-family: 'Quicksand', sans-serif;
+ font-size: 106%;
 }
 
 #formButton{
  background-color: #ffcc00;
  position: absolute;
  width: 41%;
- right: -2%;
+ right: 3%;
  height: 60px;
  border-radius: 40px;
  border: 1px solid white;
  text-align: right;
  font-family: 'Montserrat', sans-serif;
- font-size: 85%;
+ font-size: 77%;
 }
 
 .sub{
@@ -73,7 +73,8 @@ body {
 }
 
 #footerText{
-  color:#666699;
+  color:#ccccff;
+  font-size: 88%;
 }
 
 #mainContainer{
@@ -113,6 +114,22 @@ body {
 
 .moreInfoCol{
  margin-top:5%;
+}
+
+input::-webkit-input-placeholder {
+color: black !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: black !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: black !important;  
 }
 
 @media only screen and (max-width : 1000px){
