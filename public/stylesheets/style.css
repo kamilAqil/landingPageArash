@@ -13,7 +13,7 @@ body {
 
 .brandContentRow{
     height: 30%;
-    margin-top: 5%;
+    margin-top: 1%;
   }
 
 #topRow{
@@ -45,7 +45,7 @@ body {
 
 #formInput{
  position: absolute;
- left: 5%;
+ left: 0%;
  width: 79%;
  height: 60px;
  border-radius: 40px;
@@ -61,7 +61,7 @@ body {
  background-color: #ffcc00;
  position: absolute;
  width: 41%;
- right: 4%;
+ right: -2%;
  height: 60px;
  border-radius: 40px;
  border: 1px solid white;
