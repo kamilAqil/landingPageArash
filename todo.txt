@@ -1,4 +1,3 @@
-[] - comment out social media buttons 
-[] - comment out more info 
-[] - 
-[] - put text "Empowering the next generation of workers to earn money and build wealth"
+[] - make subscribe button bigger 
+[] - media queries for responsiveness 
+[] - thank you for subscribing flash message 
