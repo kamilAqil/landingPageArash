@@ -5,6 +5,7 @@ body {
   height: 100%;
   width: 100%;
   margin: auto;
+
 }
 
 .brandFont{
@@ -12,19 +13,15 @@ body {
  
 }
 
-.brandContentRow{
-  
-  }
 
 #topRow{
+
   display: none;
 }
 
-#mainLogo{
-}
 
 .testBorder{
- 
+ border: 1px solid white;
 }
 
 #pageFooter{
@@ -39,16 +36,11 @@ body {
   color: #003366;
 }
 
-
-#submitRow{
- 
-}
-
 #formInput{
  position: absolute;
  left: 0%;
  width: 79%;
- height: 100px;
+ height: 60px;
  border-radius: 40px;
  text-align: center;
  z-index: 1;
@@ -63,7 +55,7 @@ body {
  position: absolute;
  width: 41%;
  right: 0%;
- height: 100px;
+ height: 60px;
  border-radius: 40px;
  border-color: white;
  border-width: 1px 1px 1px 0 px;
@@ -84,10 +76,6 @@ body {
 #mainContainer{
   height: 100%;
   width: 100%;
-}
-
-#mainRow{
-  margin-top: 5%;
 }
 
 #socialMediaRow{
@@ -120,6 +108,23 @@ body {
  margin-top:5%;
 }
 
+@media screen and (max-width: 1485px) and (min-width: 948px) {
+    #mainRow{
+      margin-top: 40%;
+    }
+    #pageFooter{
+      margin-top: 40%;
+    }
+    .brandContentRow{
+      margin-top: 2%;
+    }
+    #submitRow{
+      margin-top: 3%;
+    }
+}
+
+
+
 input::-webkit-input-placeholder {
 color: black !important;
 }
@@ -135,34 +140,3 @@ color: black !important;
 input:-ms-input-placeholder {  
 color: black !important;  
 }
-
-
-/* Iphone 8 media Query && Iphone7 */
-@media only screen and (min-width : 350px)
-                   and (max-width:1920){
-  #mainLogo{
-    max-width:56%;
-  }
-  #mainRow{
-    margin-top: 10%;
-  }
-  #mainLogo{
-    margin-top: 7%;
-  }
-  #empowerText{
-    font-size: 155%;
-  }
-  #submitRow{
-    margin-top: 5%;
-  }
-  #formButton{
-    right:1%;
-  }
-  #logoRow{
-    height:20%;
-  }
-  #empowerText{
-
-  }
-}
-
