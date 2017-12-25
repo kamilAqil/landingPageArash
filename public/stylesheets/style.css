@@ -137,12 +137,13 @@ color: black !important;
 
 
 /* Iphone 8 media Query && Iphone7 */
-@media only screen and (max-width : 640px){
+@media only screen and (min-width : 350px)
+                   and (max-width:667){
   #mainLogo{
     max-width:56%;
   }
   #mainRow{
-    margin-top: 0%;
+    margin-top: 10%;
   }
   #mainLogo{
     margin-top: 7%;
