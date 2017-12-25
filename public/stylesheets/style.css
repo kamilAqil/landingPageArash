@@ -47,7 +47,6 @@ body {
  border-width: 3px 0px 3px 3px;
  border-color: white;
  font-family: 'Quicksand', sans-serif;
- font-size: 106%;
 }
 
 #formButton{
@@ -59,9 +58,7 @@ body {
  border-radius: 40px;
  border-color: white;
  border-width: 1px 1px 1px 0 px;
- text-align: right;
  font-family: 'Montserrat', sans-serif;
- font-size: 77%;
 }
 
 .sub{
@@ -120,6 +117,12 @@ body {
     }
     #submitRow{
       margin-top: 3%;
+    }
+    #formInput{
+      width: 70%;
+    }
+    #submitText{
+      margin-left: 15%;
     }
 }
 
