@@ -114,7 +114,7 @@ body {
     margin-left: 50%;
   }  
 }
-
+/* mobile phones */
 @media screen and (max-width: 1280px) and (min-width: 948px) {
     #mainRow{
       margin-top: 40%;
@@ -130,9 +130,15 @@ body {
     }
     #formInput{
       width: 70%;
+      height: 80px;
     }
     #submitText{
-      margin-left: 15%;
+      margin-left: 36%;
+    }
+    #formButton{
+      height: 80px;
+      width: 51%;
+
     }
 }
 
@@ -140,16 +146,20 @@ body {
 
 input::-webkit-input-placeholder {
 color: black !important;
+font-size: 120%;
 }
  
 input:-moz-placeholder { /* Firefox 18- */
-color: black !important;  
+color: black !important;
+font-size: 120%;  
 }
  
 input::-moz-placeholder {  /* Firefox 19+ */
-color: black !important;  
+color: black !important;
+font-size: 120%;  
 }
  
 input:-ms-input-placeholder {  
-color: black !important;  
+color: black !important;
+font-size: 120%;  
 }
