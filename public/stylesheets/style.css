@@ -25,7 +25,7 @@ body {
 }
 
 .testBorder{
-  
+  border: 1px solid white;
 }
 
 #pageFooter{
@@ -148,5 +148,12 @@ color: black !important;
     right:1%;
   }
 }
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+   /* STYLES GO HERE */
+  
+  }
 
 
