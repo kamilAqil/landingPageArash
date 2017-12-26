@@ -116,30 +116,7 @@ body {
 }
 /* mobile phones */
 @media screen and (max-width: 1280px) and (min-width: 948px) {
-    #mainRow{
-      margin-top: 40%;
-    }
-    #pageFooter{
-      margin-top: 40%;
-    }
-    .brandContentRow{
-      margin-top: 2%;
-    }
-    #submitRow{
-      margin-top: 3%;
-    }
-    #mce-EMAIL{
-      width: 70%;
-      height: 80px;
-    }
-    #submitText{
-      margin-left: 36%;
-    }
-    #mc-embedded-subscribe{
-      height: 80px;
-      width: 51%;
-
-    }
+    
 }
 
 

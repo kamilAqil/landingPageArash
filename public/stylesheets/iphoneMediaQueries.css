@@ -1,0 +1,52 @@
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+      #mainRow{
+      margin-top: 40%;
+    }
+    #pageFooter{
+      margin-top: 40%;
+    }
+    .brandContentRow{
+      margin-top: 2%;
+    }
+    #submitRow{
+      margin-top: 3%;
+    }
+    #mce-EMAIL{
+      width: 70%;
+      height: 80px;
+    }
+    #submitText{
+      margin-left: 36%;
+    }
+    #mc-embedded-subscribe{
+      height: 80px;
+      width: 51%;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+
+
