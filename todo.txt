@@ -1,3 +1,8 @@
-[] - make subscribe button bigger 
-[] - media queries for responsiveness 
+[] - configure name cheap 
+[x] - make subscribe button bigger 
+[] - media queries for iphoneX 
+[] - install bootstrap locally 
+[] - install jquery locally 
+
 [] - thank you for subscribing flash message 
+[] - consolidate fonts so that it only loads one consolidate
