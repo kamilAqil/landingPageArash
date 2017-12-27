@@ -2,5 +2,3 @@
 [x] - make subscribe button bigger 
 [] - media queries for iphoneX 
 [] - thank you for subscribing flash message styling
-[] - study mailchimp api
-[x] - consolidate fonts so that it only loads one link
