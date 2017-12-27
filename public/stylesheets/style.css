@@ -121,7 +121,9 @@ body {
   font-family: 'Montserrat', sans-serif;
  }
 
-
+.responseDiv{
+  font-size: 120%;
+}
 
 /* large Desktop  */
 @media screen and (min-width:1280px){
