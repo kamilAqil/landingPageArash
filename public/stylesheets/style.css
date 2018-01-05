@@ -46,8 +46,18 @@ body {
  z-index: 1;
  border-width: 3px 0px 3px 3px;
  border-color: white;
- font-family: 'Quicksand', sans-serif;
+ font-family: 'Quicksand', sans-serif; 
 }
+
+#mce-Email:focus {
+    outline: none;
+}
+
+form:focus{
+  outline:none;
+}
+
+input:placeholder { text-align: left }
 
 #mc-embedded-subscribe{
  background-color: #ffcc00;
@@ -63,6 +73,11 @@ body {
 
 .sub{
   margin-top: 20px;
+}
+
+#submitText{
+  font-size: 93%;
+  margin-left: 52%;
 }
 
 #footerText{
@@ -99,6 +114,10 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
+}
+
+#mc-embedded-subscribe-form:focus{
+  outline: none;
 }
 
 .moreInfoCol{
@@ -138,19 +157,23 @@ body {
 input::-webkit-input-placeholder {
 color: black !important;
 font-size: 120%;
+text-indent: 30px;
 }
  
 input:-moz-placeholder { /* Firefox 18- */
 color: black !important;
-font-size: 120%;  
+font-size: 120%;
+text-indent: 30px;  
 }
  
 input::-moz-placeholder {  /* Firefox 19+ */
 color: black !important;
-font-size: 120%;  
+font-size: 120%;
+text-indent: 30px;  
 }
  
 input:-ms-input-placeholder {  
 color: black !important;
-font-size: 120%;  
+font-size: 120%;
+  
 }
