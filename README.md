@@ -6,4 +6,4 @@ Launching page integrated with mailchimp for one of our ICOs client.
 
 ## Technologies used
  
- `Mailchimp` `HTML%` `CSS` `Bootstrap` 
+ `Mailchimp` `HTML5` `CSS` `Bootstrap` 
